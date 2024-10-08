@@ -1,0 +1,27 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[{*.go,Makefile,.gitmodules,go.mod,go.sum}]
+indent_style = tab
+
+[*.md]
+indent_style = tab
+trim_trailing_whitespace = false
+
+[*.{yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+[*.{js,jsx,ts,tsx,css,less,sass,scss,vue,py}]
+indent_style = space
+indent_size = 4
